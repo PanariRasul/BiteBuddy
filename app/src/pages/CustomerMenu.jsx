@@ -1,8 +1,8 @@
 // app/src/pages/CustomerMenu.jsx
 import { useEffect, useState } from "react";
 import styled from "styled-components";
-import Button from "../components/Button";
-import Loader from "../components/Loader";
+import Button from "../Components/Button";
+import Loader from "../Components/Loader";
 
 // export const BASE_URL = "http://localhost:9000";
 export const BASE_URL = "https://bitebuddy-miqu.onrender.com";

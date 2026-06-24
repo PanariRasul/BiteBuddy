@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import styled from "styled-components";
 import { BASE_URL } from "./CustomerMenu";
-import Loader from "../components/Loader";
+import Loader from "../Components/Loader";
 
 const BillingPOS = () => {
     const [data, setData] = useState(null);
