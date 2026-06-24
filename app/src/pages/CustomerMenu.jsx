@@ -4,7 +4,8 @@ import styled from "styled-components";
 import Button from "../components/Button";
 import Loader from "../components/Loader";
 
-export const BASE_URL = "http://localhost:9000";
+// export const BASE_URL = "http://localhost:9000";
+export const BASE_URL = "https://bitebuddy-miqu.onrender.com";
 
 const CustomerMenu = () => {
     const [data, setData] = useState(null);
