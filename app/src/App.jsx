@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import styled from "styled-components";
 import { AuthProvider, useAuth } from "./context/AuthContext";
-import Sidebar from "./components/Sidebar";
+import Sidebar from "./Components/Sidebar";
 import CustomerMenu from "./pages/CustomerMenu";
 import BillingPOS from "./pages/BillingPOS";
 import StockLedger from "./pages/StockLedger";
